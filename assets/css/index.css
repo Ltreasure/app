@@ -1,6 +1,10 @@
-body{
+/*body{
     background-color: red;
-}
+}*/
 h3{
-    font-size: 24px;
+    color: blue;
+    float: right;
+}
+input{
+    background-color: yellow;
 }
