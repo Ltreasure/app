@@ -1,17 +1,17 @@
 /* 网页中基本样式初始化 start */
 body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,p,a,image,input{
-  margin:0;
-  padding:0;
+	margin:0;
+	padding:0;
 }
 ul,ol{
-  list-style:none;
+	list-style:none;
 }
 a{
-  text-decoration:none;
+	text-decoration:none;
 }
 .container{
-  width:1226px;
-  margin:0 auto;
+	width:1226px;
+	margin:0 auto;
 }
 /* 网页中基本样式初始化 end */
 /*头部广告开始*/
@@ -25,25 +25,25 @@ a{
 /*头部广告结束*/
 /*topbar开始*/
 .top-bar{
-  height:41px;
+	height:41px;
     min-width:1226px;
     line-height: 41px;
-  font-size: 12px;
+	font-size: 12px;
     background-color: #333;
 }
 .top-bar a{
-  color: #b0b0b0;
+	color: #b0b0b0;
 }
 .top-bar-nav{
-  float: left;
+	float: left;
 }
 .top-bar-login{
-  float: right;
+	float: right;
 }
 .top-bar a::after{
     content:"|";
     margin:0 5px;
-    color:#555; 
+    color:#555;	
     }
 .cart a::after{
     content:"";
@@ -52,34 +52,34 @@ a{
     display: none;
     }
 .last-child{
-  margin-right: 25px;
+	margin-right: 25px;
 }
 .top-bar a:hover{
         color:#fff;
         }
 .cart{
-  position:relative;
-  float: right;
-  width: 121px;
-  height: 41px;
-  z-index: 10;
-  text-align: center;
-  background-color: #424242;
-  color:#b0b0b0;
+	position:relative;
+	float: right;
+	width: 121px;
+	height: 41px;
+	z-index: 10;
+	text-align: center;
+	background-color: #424242;
+	color:#b0b0b0;
 }
 .cart a{
-  display: block;
+	display: block;
     color: #b0b0b0；
-  width: 121px;
-  height: 41px;
+	width: 121px;
+	height: 41px;
 }
 .cart-active{
     background-color:#fff;
     color:orange;
 }
 .cart-content{
-  display: none;
-  float:right;
+	display: none;
+	float:right;
     width:316px;
     height:100px;
     color:#424242;
@@ -95,7 +95,7 @@ a{
     position: relative;
 }
 .nav{
-  position: relative;
+	position: relative;
     height:100px;
     width:1226px;
     margin:0 auto;
@@ -110,18 +110,18 @@ a{
     background:url(../images/mi-logo.png) no-repeat 50% 50% #ff6700;
 }
 .nav-menu{
-  margin-left: 230px;
+	margin-left: 230px;
 }
 .xiala-background{
-  position: absolute;
-  width: 100%;
+	position: absolute;
+	width: 100%;
     height: 230px;
     display: none;
-  top: 100px;
+	top: 100px;
     z-index: 9999;
-  border-top: 1px solid #e0e0e0;
-  background-color: #fff;
-  box-shadow:0px 2px 2px #ddd;
+	border-top: 1px solid #e0e0e0;
+	background-color: #fff;
+	box-shadow:0px 2px 2px #ddd;
 }
 .xiala-content{
     height: 230px;
@@ -200,12 +200,12 @@ a{
 }
 .nav-search{
     position:relative;
-  float:right;
-  width:294px;
-  height:50px;
-  margin-top:24px;
-  font-size:0;
-  border:1px solid #e0e0e0;
+	float:right;
+	width:294px;
+	height:50px;
+	margin-top:24px;
+	font-size:0;
+	border:1px solid #e0e0e0;
 }
 .nav input{
     width:234px;
@@ -257,16 +257,16 @@ a{
     left:-1px;
     width:243.5px;
     font-size:12px;
-  border:1px solid #ff9700;
+	border:1px solid #ff9700;
     background-color:#fff;
 }
 .search-content li{
-  height:30px;
-  line-height:30px;
-  padding:0 15px;
+	height:30px;
+	line-height:30px;
+	padding:0 15px;
 }
 .search-content li:hover{
-  background-color:#eee;
+	background-color:#eee;
 }
 .search-content span:last-child    {
     float:right;
